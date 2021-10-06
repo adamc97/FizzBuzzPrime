@@ -1,6 +1,5 @@
-factors = []
-
 for i in range(1, 101):
+    factors = []
     if i % 3 == 0:
         if i % 5 == 0:
             print('FizzBuzz')
@@ -16,4 +15,3 @@ for i in range(1, 101):
             print(i)
         else:
             print('Prime!')
-    factors = []
